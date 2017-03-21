@@ -1,21 +1,3 @@
-//49
-
-//
-// document.addEventListener("keypress", function(event) {
-//     if (event.keyCode == 81) {
-//         alert('hi.');
-//     }
-// })
-//
-// document.addEventListener("keydown", function(event) {
-//   console.log(event.which);
-// })
-//
-// document.addEventListener("keydown", function(event) {
-//   console.log(event.which);
-// })
-
-
 console.log('script file running')
 var audio = new Audio('loop.mp3');
 var bar = new Audio('bar.mp3');
@@ -123,7 +105,7 @@ var beep = function (){
 
 var blip = function (){
 
-  alert('blip');
+  
 
   // create web audio api context
   var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -145,7 +127,7 @@ var c4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value =  261.626;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var d4 = function (){
@@ -154,7 +136,7 @@ var d4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value =  293.665;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var e4 = function (){
@@ -163,7 +145,7 @@ var e4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value =  329.628;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var f4 = function (){
@@ -172,7 +154,7 @@ var f4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value = 349.228;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var g4 = function (){
@@ -181,7 +163,7 @@ var g4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value = 391.995;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var a4 = function (){
@@ -190,7 +172,7 @@ var a4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value = 440.000;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var b4 = function (){
@@ -199,7 +181,7 @@ var b4 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value = 493.883;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 var c5 = function (){
@@ -208,7 +190,7 @@ var c5 = function (){
   oscillator.connect(context.destination);
   oscillator.frequency.value = 523.251;
   oscillator.start(context.currentTime);
-  oscillator.stop(context.currentTime + 2.0);
+  oscillator.stop(context.currentTime + 1.0);
 }
 
 
