@@ -1,0 +1,108 @@
+
+
+.solfege {
+  color: SlateGray;
+  margin: auto;
+  font-size: 10px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+
+#do {
+  height: 300px;
+  width: 100px;
+  background-color: red;
+}
+
+#re {
+  height: 300px;
+  width: 100px;
+  background-color: orange;
+}
+
+#mi {
+  height: 300px;
+  width: 100px;
+  background-color: yellow;
+}
+
+#fa {
+  height: 300px;
+  width: 100px;
+  background-color: green;
+}
+
+#sol {
+  height: 300px;
+  width: 100px;
+  background-color: blue;
+}
+
+#la {
+  height: 300px;
+  width: 100px;
+  background-color: purple;
+}
+
+#ti {
+  height: 300px;
+  width: 100px;
+  background-color: pink;
+}
+
+#do2 {
+  height: 300px;
+  width: 100px;
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+#pause {
+
+  margin: 100px;
+  padding: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+#play {
+
+  margin: 100px;
+  padding: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+#stop {
+  margin: 100px;
+  padding: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+#loop {
+  margin: 100px;
+  padding: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+#blip {
+  color: white;
+  margin: 100px;
+  padding: 100px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.piano {
+  background: navy;
+  color: lightblue;
+  margin: 15px;
+
+
+}

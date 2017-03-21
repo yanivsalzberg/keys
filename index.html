@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>yTunes</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+
+<script src="node_modules/pressure/dist/pressure.js" type="text/javascript"></script>
+
+  </head>
+
+  <body style = "background-color: SlateGray">
+
+<!-- SOLFEGE-RAINBOW BEGINS HERE -->
+
+<div align="center" class="row solfege">
+
+    <div id="one" class="col-md-2"></div>
+
+    <div id="one" class="col-md-1">
+          <button id="do" type="button" onclick="c4()" class="btn btn-disabled">DO<br>261.626	hz</button>
+    </div>
+
+    <div id="two" class="col-md-1">
+          <button id="re" type="button" onclick="d4()" class="btn btn-disabled">RE<br>293.665</button>
+    </div>
+
+    <div id="three" class="col-md-1">
+          <button id="mi" type="button" onclick="e4()" class="btn btn-disabled">MI<br>329.628</button>
+    </div>
+
+    <div id="four" class="col-md-1">
+          <button id="fa" type="button" onclick="f4()" class="btn btn-disabled">FA<br>349.228</button>
+    </div>
+
+    <div id="five" class="col-md-1">
+          <button id="sol" type="button" onclick="g4()" class="btn btn-disabled">SOL<br>391.995</button>
+    </div>
+
+    <div id="six" class="col-md-1">
+          <button id="la" type="button" onclick="a4()" class="btn btn-disabled">LA<br>440.000</button>
+    </div>
+
+    <div id="seven" class="col-md-1">
+          <button id="ti" type="button" onclick="b4()" class="btn btn-disabled">TI<br>493.883</button>
+    </div>
+
+    <div id="eight" class="col-md-1">
+          <button id="do2" type="button" onclick="c5()" class="btn btn-disabled">DO<br>523.251</button>
+    </div>
+
+    <div id="one" class="col-md-2">
+
+    </div>
+
+</div
+
+
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="aa col-md-4">
+  <button id="stop" onmouseover="pause()" onclick="honk" type="button" class="btn btn-danger">STOP</button>
+
+  <button id="loop" type="button" onclick="beep()" class="btn btn-info">BEEP</button>
+</div>
+
+<div class="col-md-4">
+<button id="pause"  onclick="pause()" type="button" class="btn btn-warning">PAUSE</button>
+<button id="loop" type="button" onclick="loop()" class="btn btn-primary">LOOP</button>
+
+
+<div align="center">
+  <button id="low" type="button" onclick="g3()" class="piano btn btn-disabled">SOL</button>
+  <button id="middle" type="button" onclick="c4()" class="piano btn btn-disabled">DO </button>
+  <button id="high" type="button" onclick="e4()" class="piano btn btn-disabled">MI</button>
+  <button id="high" type="button" onclick="g4()" class="piano btn btn-disabled">SOL</button>
+  <button id="high" type="button" onclick="g4square()" class="piano btn btn-disabled">SOL (square)</button>
+  <button id="beatLoop" type="button" onclick="beatLoop()" class="piano btn btn-disabled">BEAT LOOP</button>
+  <button id="beatLoop2" type="button" onclick="beatLoop2()" class="piano btn btn-disabled">HALF TIME</button> </div>
+
+
+</div>
+
+<div class="col-md-4">
+<button id="play" type="button" class="btn btn-success">PLAY</button>
+<button id="blip" type="button" onclick="blip()" class="btn btn-disabled">BLIP</button>
+</div>
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+  <script src="script.js" type="text/javascript"></script>
+
+
+  </body>
+</html>
