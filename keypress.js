@@ -52,14 +52,34 @@ $('body').on('keydown',function(e){
       });
 
 
+
+
+// turn loop on and off with Q-key
+
+  $('body').on('keydown',function(e){
+
+              if(e.which==81){
+                  loop();
+              }
+
+
+          });
+
+
+
+  $('body').on('keyup',function(e){
+              if(e.which==81){
+                  pause();
+                  audio.currentTime = .05;
+          }
+      });
+
+
+
+
 // KEYUPEVENTS
 
-// $('body').on('keyup',function(e){
-//         if(e.which==49){
-//               c4();
-                  // gainNode.gain.value = 0;
-//         }
-//     });
+
 //
 // $('body').on('keyup',function(e){
 //         if(e.which==50){
@@ -103,12 +123,6 @@ $('body').on('keydown',function(e){
 //                 c5();
 //           }
 //       });
-
-
-
-
-
-
 
 
 

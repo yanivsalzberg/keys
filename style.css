@@ -9,43 +9,43 @@
 
 
 #do {
-  height: 300px;
+  height: 600px;
   width: 100px;
   background-color: red;
 }
 
 #re {
-  height: 300px;
+  height: 550px;
   width: 100px;
   background-color: orange;
 }
 
 #mi {
-  height: 300px;
+  height: 500px;
   width: 100px;
   background-color: yellow;
 }
 
 #fa {
-  height: 300px;
+  height: 450px;
   width: 100px;
   background-color: green;
 }
 
 #sol {
-  height: 300px;
+  height: 400px;
   width: 100px;
   background-color: blue;
 }
 
 #la {
-  height: 300px;
+  height: 360px;
   width: 100px;
   background-color: purple;
 }
 
 #ti {
-  height: 300px;
+  height: 330px;
   width: 100px;
   background-color: pink;
 }
